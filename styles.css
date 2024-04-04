@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(141, 172, 178);
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor {
+    display: flex;
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);    
+    height: 99%;
+    width: 99%;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px black;
+
+    
+}
+
+.sidebar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 171, 228, 0.574);
+    height: 100%;
+    width: 20%;
+    border: solid 1px black;
+
+    
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(176, 134, 212, 0.541);
+    height: 20%;
+    width: 100%;
+    border: solid 1px black;
+
+    
+}
+
+.content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 5%;
+    margin-left: 15%; 
+    margin-right: 50%;
+    margin-bottom: 5%;
+    height: 75%;
+    width: 75%;
+    border: solid 1px black;
+
+    
+    
+}
+
+.card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 154, 68);
+    height: 80%;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
+    border: solid 1px black;
+
+}
+
+.columna {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
